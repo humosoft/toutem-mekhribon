@@ -1,0 +1,39 @@
+.hero-section {
+  background-image: url("../picture/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.hero-section__inner {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.hero-section__title {
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 89.84%;
+  color: $color-brend;
+  width: 450px;
+}
+
+.hero-section__description {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: $color-footer;
+  width: 374px;
+}
+
+.hero-section__img {
+  margin-top: 50px;
+}
+
+.hero-section__content {
+  margin-left: 50px;
+}

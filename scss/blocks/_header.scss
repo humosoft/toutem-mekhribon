@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons,
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+
+  li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 135%;
+    color: $color-header;
+    white-space: nowrap;
+    margin: 15px;
+  }
+}
+
+.header__logo {
+  margin-right: 300px;
+}
+
+.header-icons {
+  margin-left: 400px;
+
+  a {
+    padding-left: 10px;
+  }
+}

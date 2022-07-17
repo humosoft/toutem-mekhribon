@@ -1,0 +1,68 @@
+.img-with-text {
+  position: relative;
+  &::before {
+    position: absolute;
+    // top: 50%;
+    // bottom: 50%;
+    // transform: translateY(-55%);
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 220%;
+    background-image: url("../picture/bg-2.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.img-with-text__inner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.img-with-text__title {
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 107.9%;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: $color-brend;
+  margin-top: 250px;
+}
+
+.img-with-text__description {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+  color: $color-footer;
+}
+
+.btn {
+  cursor: pointer;
+  width: 274px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: $color-brend;
+  border: 1px solid $color-brend;
+  margin-left: 450px;
+}
+
+.img {
+  margin-top: 150px;
+}

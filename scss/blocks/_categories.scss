@@ -1,0 +1,46 @@
+.categories-section__inner ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  li a {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+.list {
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  padding-top: 60px;
+  background: #f9fafb;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 20px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+  &:hover {
+    background-color: $color-brend;
+    color: #ffff;
+    a {
+      svg {
+        path {
+          fill: #f9fafb;
+        }
+      }
+    }
+  }
+}
+
+.text {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: $color-brend;
+}
