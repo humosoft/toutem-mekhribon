@@ -439,10 +439,15 @@ body {
 }
 .list:hover {
   background-color: #5fd788;
+}
+.list:hover a {
   color: white;
 }
 .list:hover a svg path {
   fill: #f9fafb;
+}
+.list:hover a svg path:not(:first-child) {
+  fill: #1f2937;
 }
 
 .text {
@@ -519,4 +524,96 @@ body {
 
 .img {
   margin-top: 150px;
+}
+
+.featured-products {
+  position: relative;
+}
+.featured-products::before {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-25%);
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 220%;
+  background-image: url("../picture/flowers-photo-1.png");
+  background-repeat: no-repeat;
+}
+
+.featured-products__inner {
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 200px;
+}
+
+.btn-secondary {
+  background-color: #5fd788;
+  border: 1px solid #5fd788;
+}
+
+.featured-products__title {
+  margin-right: 200px;
+}
+
+.featured-products__title-text {
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 107.9%;
+  letter-spacing: 0.01em;
+  color: #5fd788;
+}
+
+.featured-products__content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 0px 20px;
+  width: 332px;
+  left: 580px;
+}
+
+.featured-products__content--text {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 0px 20px;
+  width: 332px;
+  left: 930px;
+}
+
+.featured-products__img {
+  padding-left: 15px;
+}
+
+.content__text {
+  display: flex;
+}
+
+.description {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #6b7280;
+  width: 239px;
+  margin-right: 25px;
+}
+
+.title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1f2937;
 }/*# sourceMappingURL=main.css.map */

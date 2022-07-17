@@ -24,11 +24,15 @@
 
   &:hover {
     background-color: $color-brend;
-    color: #ffff;
     a {
+      color: #ffff;
       svg {
         path {
           fill: #f9fafb;
+
+          &:not(:first-child) {
+            fill: $color-header;
+          }
         }
       }
     }

@@ -2,9 +2,6 @@
   position: relative;
   &::before {
     position: absolute;
-    // top: 50%;
-    // bottom: 50%;
-    // transform: translateY(-55%);
     z-index: -1;
     content: "";
     width: 100%;
