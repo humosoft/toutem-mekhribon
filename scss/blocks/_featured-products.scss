@@ -44,7 +44,7 @@
 }
 
 .featured-products__title-text {
-  font-family: "SF Pro Rounded";
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -87,7 +87,7 @@
 }
 
 .description {
-  font-family: "SF Pro Display";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -98,12 +98,13 @@
 }
 
 .title {
-  font-family: "SF Pro Display";
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 20%;
   color: $color-header;
+  padding-left: 10px;
 }
 
 .price {
