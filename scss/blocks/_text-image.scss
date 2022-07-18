@@ -39,6 +39,7 @@
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: $color-header;
+  @include reset-btn;
 
   &:hover {
     background-color: $color-header;

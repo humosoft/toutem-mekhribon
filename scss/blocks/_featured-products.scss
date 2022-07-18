@@ -30,6 +30,7 @@
   background-color: $color-brend;
   border: 1px solid $color-brend;
   color: $color-white;
+  @include reset-btn;
 
   &:hover {
     background-color: $color-white;

@@ -504,7 +504,11 @@ body {
   color: #9ca3af;
 }
 
-.btn {
+.btn-primary {
+  background-color: #5fd788;
+  border: 1px solid #5fd788;
+  margin-left: 450px;
+  color: #ffffff;
   cursor: pointer;
   width: 274px;
   height: 40px;
@@ -516,13 +520,6 @@ body {
   line-height: 97.9%;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-}
-
-.btn-primary {
-  background-color: #5fd788;
-  border: 1px solid #5fd788;
-  margin-left: 450px;
-  color: #ffffff;
 }
 .btn-primary:hover {
   background-color: #ffffff;
@@ -562,6 +559,17 @@ body {
   background-color: #5fd788;
   border: 1px solid #5fd788;
   color: #ffffff;
+  cursor: pointer;
+  width: 274px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
 }
 .btn-secondary:hover {
   background-color: #ffffff;
@@ -712,6 +720,17 @@ body {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #1f2937;
+  cursor: pointer;
+  width: 274px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
 }
 .btn-last:hover {
   background-color: #1f2937;

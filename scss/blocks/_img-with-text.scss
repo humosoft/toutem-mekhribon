@@ -39,25 +39,26 @@
   color: $color-footer;
 }
 
-.btn {
-  cursor: pointer;
-  width: 274px;
-  height: 40px;
-  border-radius: 8px;
-  font-family: "Quicksand";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 97.9%;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-}
+// .btn {
+//   cursor: pointer;
+//   width: 274px;
+//   height: 40px;
+//   border-radius: 8px;
+//   font-family: "Quicksand";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 97.9%;
+//   letter-spacing: 0.01em;
+//   text-transform: uppercase;
+// }
 
 .btn-primary {
   background-color: $color-brend;
   border: 1px solid $color-brend;
   margin-left: 450px;
   color: $color-white;
+  @include reset-btn;
 
   &:hover {
     background-color: $color-white;
