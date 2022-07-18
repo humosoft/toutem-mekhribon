@@ -58,6 +58,12 @@
   border: 1px solid $color-brend;
   margin-left: 450px;
   color: $color-white;
+
+  &:hover {
+    background-color: $color-white;
+    border: 1px solid $color-brend;
+    color: $color-brend;
+  }
 }
 
 .img {

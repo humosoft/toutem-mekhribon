@@ -39,4 +39,10 @@
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: $color-header;
+
+  &:hover {
+    background-color: $color-header;
+    border: 1px solid $color-header;
+    color: $color-white;
+  }
 }
