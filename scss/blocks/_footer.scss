@@ -1,0 +1,55 @@
+.footer {
+  background: #f3f4f6;
+  height: 285px;
+  border: 0.5px solid #f3f4f6;
+}
+
+.footer-nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: -110px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.footer-nav ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 135%;
+
+    color: $color-footer;
+  }
+}
+
+.footer__content {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 135%;
+  color: $color-brend;
+}
+
+.last-text {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  color: $color-primary;
+}
+
+.footer-logo {
+  margin: 60px 50px;
+}

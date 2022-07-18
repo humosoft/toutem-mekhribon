@@ -24,8 +24,9 @@
 
   &:hover {
     background-color: $color-brend;
+
     a {
-      color: #ffff;
+      color: $color-white;
       svg {
         path {
           fill: #f9fafb;
@@ -47,4 +48,8 @@
   line-height: 140%;
   text-align: center;
   color: $color-brend;
+
+  &:hover {
+    color: $color-white;
+  }
 }
