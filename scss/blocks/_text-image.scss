@@ -1,0 +1,42 @@
+.text-image {
+  background-color: $color-brend;
+  background-image: url("../picture/zarchalar.png");
+  background-repeat: no-repeat;
+}
+
+.text-image__inner {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.text-image__content {
+  margin: 65px;
+}
+
+.text-image__title {
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 119.4%;
+  letter-spacing: 0.01em;
+  color: $color-white;
+  width: 523px;
+}
+
+.btn-last {
+  border-radius: 8px;
+  background-color: $color-white;
+  border: 1px solid $color-white;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $color-header;
+}

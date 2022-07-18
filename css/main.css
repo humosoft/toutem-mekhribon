@@ -334,7 +334,7 @@ body {
 .header {
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .header__inner {
@@ -513,13 +513,13 @@ body {
   line-height: 97.9%;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 .btn-primary {
   background-color: #5fd788;
   border: 1px solid #5fd788;
   margin-left: 450px;
+  color: #ffffff;
 }
 
 .img {
@@ -546,12 +546,12 @@ body {
   display: flex;
   align-items: center;
   margin-top: 300px;
-  margin-bottom: 200px;
 }
 
 .btn-secondary {
   background-color: #5fd788;
   border: 1px solid #5fd788;
+  color: #ffffff;
 }
 
 .featured-products__title {
@@ -596,6 +596,9 @@ body {
 
 .content__text {
   display: flex;
+  align-items: center;
+  width: 370px;
+  height: 45px;
 }
 
 .description {
@@ -614,6 +617,82 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 140%;
+  line-height: 20%;
+  color: #1f2937;
+}
+
+.price {
+  width: 35px;
+  height: 15px;
+  background: #5fd788;
+  border-radius: 8px;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.point__style {
+  display: flex;
+  margin-left: 700px;
+}
+.point__style li {
+  list-style-type: none;
+}
+
+.circle {
+  background-color: #9ca3af;
+  border-radius: 50%;
+  border: 1px solid #9ca3af;
+  padding: 3px 3px;
+  margin: 5px;
+}
+.circle:focus {
+  background-color: #5fd788;
+  border: 1px solid #5fd788;
+}
+
+.text-image {
+  background-color: #5fd788;
+  background-image: url("../picture/zarchalar.png");
+  background-repeat: no-repeat;
+}
+
+.text-image__inner {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.text-image__content {
+  margin: 65px;
+}
+
+.text-image__title {
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 119.4%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  width: 523px;
+}
+
+.btn-last {
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
   color: #1f2937;
 }/*# sourceMappingURL=main.css.map */

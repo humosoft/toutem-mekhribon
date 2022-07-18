@@ -18,12 +18,12 @@
   display: flex;
   align-items: center;
   margin-top: 300px;
-  margin-bottom: 200px;
 }
 
 .btn-secondary {
   background-color: $color-brend;
   border: 1px solid $color-brend;
+  color: $color-white;
 }
 
 .featured-products__title {
@@ -66,6 +66,9 @@
 
 .content__text {
   display: flex;
+  align-items: center;
+  width: 370px;
+  height: 45px;
 }
 
 .description {
@@ -84,6 +87,41 @@
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 140%;
+  line-height: 20%;
   color: $color-header;
+}
+
+.price {
+  width: 35px;
+  height: 15px;
+  background: $color-brend;
+  border-radius: 8px;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $color-white;
+  margin-left: 15px;
+}
+
+.point__style {
+  display: flex;
+  margin-left: 700px;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.circle {
+  background-color: $color-footer;
+  border-radius: 50%;
+  border: 1px solid $color-footer;
+  padding: 3px 3px;
+  margin: 5px;
+
+  &:focus {
+    background-color: $color-brend;
+    border: 1px solid $color-brend;
+  }
 }
