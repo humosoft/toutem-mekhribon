@@ -3,7 +3,7 @@
   &::before {
     position: absolute;
     top: 50%;
-    bottom: 50%;
+    // bottom: 50%;
     transform: translateY(-25%);
     z-index: -1;
     content: "";
@@ -11,6 +11,12 @@
     height: 220%;
     background-image: url("../picture/flowers-photo-1.png");
     background-repeat: no-repeat;
+  }
+
+  &--1 {
+    &::before {
+      background-image: url("../picture/flowers-photo-2.png");
+    }
   }
 }
 
@@ -24,6 +30,12 @@
   background-color: $color-brend;
   border: 1px solid $color-brend;
   color: $color-white;
+
+  &:hover {
+    background-color: $color-white;
+    border: 1px solid $color-brend;
+    color: $color-brend;
+  }
 }
 
 .featured-products__title {
@@ -48,6 +60,7 @@
   border-radius: 0px 20px;
   width: 332px;
   left: 580px;
+  margin: 45px 0;
 }
 
 .featured-products__content--text {
@@ -58,6 +71,7 @@
   border-radius: 0px 20px;
   width: 332px;
   left: 930px;
+  margin: 45px 0;
 }
 
 .featured-products__img {
@@ -106,7 +120,7 @@
 
 .point__style {
   display: flex;
-  margin-left: 700px;
+  margin-left: 850px;
 
   li {
     list-style-type: none;
