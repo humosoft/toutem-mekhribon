@@ -2,6 +2,10 @@
   background: #f3f4f6;
   height: 285px;
   border: 0.5px solid #f3f4f6;
+
+  @media (max-width: $desktop) {
+    height: 580px;
+  }
 }
 
 .footer-nav {
@@ -11,6 +15,10 @@
   margin-top: -110px;
   margin-bottom: 40px;
   padding-left: 40px;
+
+  @media (max-width: $desktop) {
+    flex-direction: column;
+  }
 }
 
 .footer-nav ul li {
@@ -47,6 +55,10 @@
   line-height: 100%;
   text-align: center;
   color: $color-primary;
+
+  @media (max-width: $desktop) {
+    margin-left: 65px;
+  }
 }
 
 .footer-logo {

@@ -9,17 +9,12 @@
     background-image: url("../picture/bg-2.png");
     background-repeat: no-repeat;
   }
-  @media (max-width: $desktop) {
-  }
 }
 
 .img-with-text__inner {
   display: flex;
   align-items: center;
   margin-bottom: 100px;
-
-  @media (max-width: $desktop) {
-  }
 }
 
 .img-with-text__title {
@@ -42,6 +37,9 @@
   line-height: 140%;
   text-align: right;
   color: $color-footer;
+  width: 370px;
+  margin-left: 450px;
+  margin-bottom: 20px;
 }
 
 .btn-primary {

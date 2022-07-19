@@ -1,10 +1,15 @@
 .blog-section__inner {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 80px;
 
   li {
     list-style-type: none;
+  }
+  @media (max-width: $desktop) {
+    flex-direction: column;
+    gap: 50px;
   }
 }
 
@@ -13,6 +18,10 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   height: 395px;
+
+  @media (max-width: $desktop) {
+    width: 370px;
+  }
 }
 
 .blog-section__title {
