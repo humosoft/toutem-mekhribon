@@ -3,7 +3,13 @@
   padding: 0 15px;
   margin: 0 auto;
 
-  @media (max-width: $desktop-l) {
-    max-width: $desktop;
+  // @media (max-width: $desktop-l) {
+  //   max-width: $desktop;
+  // }
+  @media (max-width: $desktop) {
+    max-width: $tablet;
+  }
+  @media (max-width: $tablet) {
+    max-width: 100%;
   }
 }

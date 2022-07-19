@@ -1,7 +1,12 @@
 .header {
   position: fixed;
   width: 100%;
+  z-index: 1;
   background-color: $color-white;
+
+  @media (max-width: $desktop) {
+    min-width: $tablet;
+  }
 }
 
 .header__inner {

@@ -9,12 +9,17 @@
     background-image: url("../picture/bg-2.png");
     background-repeat: no-repeat;
   }
+  @media (max-width: $desktop) {
+  }
 }
 
 .img-with-text__inner {
   display: flex;
   align-items: center;
   margin-bottom: 100px;
+
+  @media (max-width: $desktop) {
+  }
 }
 
 .img-with-text__title {
@@ -39,24 +44,10 @@
   color: $color-footer;
 }
 
-// .btn {
-//   cursor: pointer;
-//   width: 274px;
-//   height: 40px;
-//   border-radius: 8px;
-//   font-family: "Quicksand";
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 97.9%;
-//   letter-spacing: 0.01em;
-//   text-transform: uppercase;
-// }
-
 .btn-primary {
   background-color: $color-brend;
   border: 1px solid $color-brend;
-  margin-left: 450px;
+  margin-left: 550px;
   color: $color-white;
   @include reset-btn;
 
