@@ -25,25 +25,3 @@
   color: $color-white;
   width: 570px;
 }
-
-.btn-last {
-  border-radius: 8px;
-  background-color: $color-white;
-  border: 1px solid $color-white;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 97.9%;
-  text-align: center;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: $color-header;
-  @include reset-btn;
-
-  &:hover {
-    background-color: $color-header;
-    border: 1px solid $color-header;
-    color: $color-white;
-  }
-}

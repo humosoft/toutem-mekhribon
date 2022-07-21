@@ -1,0 +1,62 @@
+@mixin reset-btn {
+  cursor: pointer;
+  width: 274px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: $color-brend;
+  border: 1px solid $color-brend;
+  margin-left: 550px;
+  color: $color-white;
+  @include reset-btn;
+
+  &:hover {
+    background-color: $color-white;
+    border: 1px solid $color-brend;
+    color: $color-brend;
+  }
+}
+
+.btn-secondary {
+  background-color: $color-brend;
+  border: 1px solid $color-brend;
+  color: $color-white;
+  @include reset-btn;
+
+  &:hover {
+    background-color: $color-white;
+    border: 1px solid $color-brend;
+    color: $color-brend;
+  }
+}
+
+.btn-last {
+  border-radius: 8px;
+  background-color: $color-white;
+  border: 1px solid $color-white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $color-header;
+  @include reset-btn;
+
+  &:hover {
+    background-color: $color-header;
+    border: 1px solid $color-header;
+    color: $color-white;
+  }
+}

@@ -7,17 +7,3 @@ $color-primary: #6b7280;
 $color-header: #1f2937;
 $color-footer: #9ca3af;
 $color-white: #ffffff;
-
-@mixin reset-btn {
-  cursor: pointer;
-  width: 274px;
-  height: 40px;
-  border-radius: 8px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 97.9%;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-}

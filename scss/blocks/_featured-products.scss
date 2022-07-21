@@ -32,19 +32,6 @@
   }
 }
 
-.btn-secondary {
-  background-color: $color-brend;
-  border: 1px solid $color-brend;
-  color: $color-white;
-  @include reset-btn;
-
-  &:hover {
-    background-color: $color-white;
-    border: 1px solid $color-brend;
-    color: $color-brend;
-  }
-}
-
 .featured-products__title {
   margin-right: 200px;
   margin-left: 78px;

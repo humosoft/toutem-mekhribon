@@ -42,20 +42,6 @@
   margin-bottom: 20px;
 }
 
-.btn-primary {
-  background-color: $color-brend;
-  border: 1px solid $color-brend;
-  margin-left: 550px;
-  color: $color-white;
-  @include reset-btn;
-
-  &:hover {
-    background-color: $color-white;
-    border: 1px solid $color-brend;
-    color: $color-brend;
-  }
-}
-
 .img {
   margin-top: 150px;
 }
